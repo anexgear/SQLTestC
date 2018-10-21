@@ -1,0 +1,90 @@
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\SQLiteConnections.exe.config
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\SQLiteConnections.exe
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\SQLiteConnections.pdb
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\EntityFramework.dll
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\System.Data.SQLite.dll
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\EntityFramework.xml
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\System.Data.SQLite.xml
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.csprojAssemblyReference.cache
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\MainWindow.g.cs
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\App.g.cs
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections_MarkupCompile.cache
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections_MarkupCompile.lref
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\MainWindow.baml
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.g.resources
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.Properties.Resources.resources
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.csproj.GenerateResource.cache
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.csproj.CoreCompileInputs.cache
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.csproj.CopyComplete
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.exe
+C:\Users\AnexGear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.pdb
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\SQLiteConnections.exe.config
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\SQLiteConnections.exe
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\SQLiteConnections.pdb
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\EntityFramework.dll
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\System.Data.SQLite.dll
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\EntityFramework.xml
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\System.Data.SQLite.xml
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.csprojAssemblyReference.cache
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\MainWindow.g.cs
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\App.g.cs
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections_MarkupCompile.cache
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections_MarkupCompile.lref
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\MainWindow.baml
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.g.resources
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.Properties.Resources.resources
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.csproj.GenerateResource.cache
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.csproj.CoreCompileInputs.cache
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.csproj.CopyComplete
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.exe
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.pdb
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\SQLiteConnections.exe.CodeAnalysisLog.xml
+C:\Users\Anex Gear\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\SQLiteConnections.exe.lastcodeanalysissucceeded
+C:\Users\igadmin\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\SQLiteConnections.exe.config
+C:\Users\igadmin\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\SQLiteConnections.exe
+C:\Users\igadmin\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\SQLiteConnections.pdb
+C:\Users\igadmin\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\System.Data.SQLite.dll
+C:\Users\igadmin\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\System.Data.SQLite.xml
+C:\Users\igadmin\Dropbox\EduC#\SQLiteApp\SQLiteConnections\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\igadmin\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.csprojAssemblyReference.cache
+C:\Users\igadmin\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\MainWindow.g.cs
+C:\Users\igadmin\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\App.g.cs
+C:\Users\igadmin\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections_MarkupCompile.cache
+C:\Users\igadmin\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections_MarkupCompile.lref
+C:\Users\igadmin\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\MainWindow.baml
+C:\Users\igadmin\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.g.resources
+C:\Users\igadmin\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.Properties.Resources.resources
+C:\Users\igadmin\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.csproj.GenerateResource.cache
+C:\Users\igadmin\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.csproj.CoreCompileInputs.cache
+C:\Users\igadmin\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.csproj.CopyComplete
+C:\Users\igadmin\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.exe
+C:\Users\igadmin\Dropbox\EduC#\SQLiteApp\SQLiteConnections\obj\Debug\SQLiteConnections.pdb
+C:\Users\igadmin\Dropbox\EduC#\DBTestSQLiteCore\SQLiteConnections\bin\Debug\DBTestSQLiteCore.exe.config
+C:\Users\igadmin\Dropbox\EduC#\DBTestSQLiteCore\SQLiteConnections\bin\Debug\DBTestSQLiteCore.exe
+C:\Users\igadmin\Dropbox\EduC#\DBTestSQLiteCore\SQLiteConnections\bin\Debug\DBTestSQLiteCore.pdb
+C:\Users\igadmin\Dropbox\EduC#\DBTestSQLiteCore\SQLiteConnections\bin\Debug\System.Data.SQLite.dll
+C:\Users\igadmin\Dropbox\EduC#\DBTestSQLiteCore\SQLiteConnections\bin\Debug\System.Data.SQLite.xml
+C:\Users\igadmin\Dropbox\EduC#\DBTestSQLiteCore\SQLiteConnections\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\igadmin\Dropbox\EduC#\DBTestSQLiteCore\SQLiteConnections\obj\Debug\SQLiteConnections.csprojAssemblyReference.cache
+C:\Users\igadmin\Dropbox\EduC#\DBTestSQLiteCore\SQLiteConnections\obj\Debug\MainWindow.g.cs
+C:\Users\igadmin\Dropbox\EduC#\DBTestSQLiteCore\SQLiteConnections\obj\Debug\App.g.cs
+C:\Users\igadmin\Dropbox\EduC#\DBTestSQLiteCore\SQLiteConnections\obj\Debug\DBTestSQLiteCore_MarkupCompile.cache
+C:\Users\igadmin\Dropbox\EduC#\DBTestSQLiteCore\SQLiteConnections\obj\Debug\DBTestSQLiteCore_MarkupCompile.lref
+C:\Users\igadmin\Dropbox\EduC#\DBTestSQLiteCore\SQLiteConnections\obj\Debug\MainWindow.baml
+C:\Users\igadmin\Dropbox\EduC#\DBTestSQLiteCore\SQLiteConnections\obj\Debug\DBTestSQLiteCore.g.resources
+C:\Users\igadmin\Dropbox\EduC#\DBTestSQLiteCore\SQLiteConnections\obj\Debug\DBTestSQLiteCore.Properties.Resources.resources
+C:\Users\igadmin\Dropbox\EduC#\DBTestSQLiteCore\SQLiteConnections\obj\Debug\SQLiteConnections.csproj.GenerateResource.cache
+C:\Users\igadmin\Dropbox\EduC#\DBTestSQLiteCore\SQLiteConnections\obj\Debug\SQLiteConnections.csproj.CoreCompileInputs.cache
+C:\Users\igadmin\Dropbox\EduC#\DBTestSQLiteCore\SQLiteConnections\obj\Debug\SQLiteConnections.csproj.CopyComplete
+C:\Users\igadmin\Dropbox\EduC#\DBTestSQLiteCore\SQLiteConnections\obj\Debug\DBTestSQLiteCore.exe
+C:\Users\igadmin\Dropbox\EduC#\DBTestSQLiteCore\SQLiteConnections\obj\Debug\DBTestSQLiteCore.pdb

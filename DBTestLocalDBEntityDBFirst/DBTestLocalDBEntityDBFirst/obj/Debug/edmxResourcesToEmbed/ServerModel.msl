@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище ServersLocalDBModelContainer" CdmEntityContainer="ServersLocalDBEntities">
+    <EntitySetMapping Name="Servers">
+      <EntityTypeMapping TypeName="ServersLocalDBModel.Server">
+        <MappingFragment StoreEntitySet="Table">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IPAdress" ColumnName="IPAdress" />
+          <ScalarProperty Name="Port" ColumnName="Port" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
