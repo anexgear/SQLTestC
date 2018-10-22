@@ -9,8 +9,8 @@ namespace SQLiteConnections
     {
         void CreateTable();
         void CreateDB();
-        void InsertToDB(Server server);
-        void UpdateServer(Server server);
+        void InsertToDB(IServer server);
+        void UpdateServer(IServer server);
         void RemoveServer(Guid Guid);
         Server GetServer(Guid Guid);
         Server GetServer(string Name);

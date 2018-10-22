@@ -10,7 +10,7 @@ namespace SQLiteConnections
     
     public partial class MainWindow : Window
     {
-        private DBHelper dBHelper;
+        private IDBHelper dBHelper;
         private ObservableCollection<Server> servers = new ObservableCollection<Server>();
         
 

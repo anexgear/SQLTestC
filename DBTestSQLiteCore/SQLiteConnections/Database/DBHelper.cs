@@ -9,30 +9,30 @@ namespace SQLiteConnections.Database
 {
     class DBHelper : IDBHelper
     {
-        private static readonly string databaseName = "servers.db";
-        private static readonly string tableName = "srv";
-        private static readonly string id = "id";
-        private static readonly string guid = "guid";
-        private static readonly string name = "name";
-        private static readonly string ipv4 = "ipv4";
-        private static readonly string port = "port";
-        private static readonly string login = "login";
-        private static readonly string ConnectionString = "Data Source = " + databaseName + "; Version=3;";
-        private static readonly string NewTableQuery = new StringBuilder("DROP TABLE IF EXISTS " + tableName + ";")
-            .Append("CREATE TABLE " + tableName + "(")
-            .Append(id + " INTEGER PRIMARY KEY AUTOINCREMENT, ")
-            .Append(guid + " TEXT UNIQUE, ")
-            .Append(name + " TEXT, ")
-            .Append(ipv4 + " TEXT, ")
-            .Append(port + " TEXT, ")
-            .Append(login + " TEXT);")
+        private const string DATABASE_NAME = "servers.db";
+        private const string TABLE_NAME = "srv";
+        private const string ID = "id";
+        private const string GUID = "guid";
+        private const string NAME = "name";
+        private const string IPV4 = "ipv4";
+        private const string PORT = "port";
+        private const string LOGIN = "login";
+        private const string CONNECTION_STRING = "Data Source = " + DATABASE_NAME + "; Version=3;";
+        private static readonly string NewTableQuery = new StringBuilder("DROP TABLE IF EXISTS " + TABLE_NAME + ";")
+            .Append("CREATE TABLE " + TABLE_NAME + "(")
+            .Append(ID + " INTEGER PRIMARY KEY AUTOINCREMENT, ")
+            .Append(GUID + " TEXT UNIQUE, ")
+            .Append(NAME + " TEXT, ")
+            .Append(IPV4 + " TEXT, ")
+            .Append(PORT + " TEXT, ")
+            .Append(LOGIN + " TEXT);")
             .ToString();
 
 
 
         public DBHelper()
         {
-            if (!File.Exists(databaseName))
+            if (!File.Exists(DATABASE_NAME))
             {
                 CreateDB();
             }
@@ -40,14 +40,14 @@ namespace SQLiteConnections.Database
 
         public void CreateDB()
         {
-            SQLiteConnection.CreateFile(databaseName);
+            SQLiteConnection.CreateFile(DATABASE_NAME);
             CreateTable();
         }
 
 
         public void CreateTable()
         {
-            using (SQLiteConnection connection = new SQLiteConnection(ConnectionString))
+            using (SQLiteConnection connection = new SQLiteConnection(CONNECTION_STRING))
             {
                 connection.Open();
                 using (SQLiteCommand sqlCommand = new SQLiteCommand(NewTableQuery, connection))
@@ -59,8 +59,8 @@ namespace SQLiteConnections.Database
 
         public void RemoveServer(Guid Guid)
         {
-            string deleteServerString = "DELETE FROM " + tableName + " WHERE guid = @guid";
-            using (SQLiteConnection connection = new SQLiteConnection(ConnectionString))
+            var deleteServerString = "DELETE FROM " + TABLE_NAME + " WHERE guid = @guid";
+            using (SQLiteConnection connection = new SQLiteConnection(CONNECTION_STRING))
             {
                 connection.Open();
                 using (SQLiteCommand sqlCommand = new SQLiteCommand(deleteServerString, connection))
@@ -73,10 +73,10 @@ namespace SQLiteConnections.Database
 
         public Server GetServer(Guid Guid)
         {
-            using (SQLiteConnection connection = new SQLiteConnection(ConnectionString))
+            using (SQLiteConnection connection = new SQLiteConnection(CONNECTION_STRING))
             {
                 Server server;
-                string GetServerString = "SELECT * FROM " + tableName + " WHERE guid LIKE @guid";
+                var GetServerString = "SELECT * FROM " + TABLE_NAME + " WHERE guid LIKE @guid";
                 connection.Open();
                 using (SQLiteCommand sqlCommand = new SQLiteCommand(GetServerString, connection))
                 {
@@ -87,11 +87,11 @@ namespace SQLiteConnections.Database
                         {
                             server = new Server
                             {
-                                ID = int.Parse(reader[id].ToString()),
-                                Name = (string)reader[name],
-                                IPAdress = (string)reader[ipv4],
-                                Port = (string)reader[port],
-                                Login = (string)reader[login]
+                                ID = int.Parse(reader[ID].ToString()),
+                                Name = (string)reader[NAME],
+                                IPAdress = (string)reader[IPV4],
+                                Port = (string)reader[PORT],
+                                Login = (string)reader[LOGIN]
                             };
 
                             return server;
@@ -104,9 +104,9 @@ namespace SQLiteConnections.Database
 
         public Server GetServer(string Name)
         {
-            using (SQLiteConnection connection = new SQLiteConnection(ConnectionString))
+            using (SQLiteConnection connection = new SQLiteConnection(CONNECTION_STRING))
             {
-                string GetServerString = "SELECT * FROM " + tableName + " WHERE name LIKE @name";
+                var GetServerString = "SELECT * FROM " + TABLE_NAME + " WHERE name LIKE @name";
                 Server server;
                 connection.Open();
                 using (SQLiteCommand sqlCommand = new SQLiteCommand(GetServerString, connection))
@@ -118,11 +118,11 @@ namespace SQLiteConnections.Database
                         {
                             server = new Server
                             {
-                                ID = int.Parse(reader[id].ToString()),
-                                Name = (string)reader[name],
-                                IPAdress = (string)reader[ipv4],
-                                Port = (string)reader[port],
-                                Login = (string)reader[login]
+                                ID = int.Parse(reader[ID].ToString()),
+                                Name = (string)reader[NAME],
+                                IPAdress = (string)reader[IPV4],
+                                Port = (string)reader[PORT],
+                                Login = (string)reader[LOGIN]
                             };
 
                             return server;
@@ -136,8 +136,8 @@ namespace SQLiteConnections.Database
         public ObservableCollection<Server> GetServers()
         {
             ObservableCollection<Server> servers = new ObservableCollection<Server>();
-            string GetServersString = "SELECT DISTINCT * FROM " + tableName;
-            using (SQLiteConnection connection = new SQLiteConnection(ConnectionString))
+            var GetServersString = "SELECT DISTINCT * FROM " + TABLE_NAME;
+            using (SQLiteConnection connection = new SQLiteConnection(CONNECTION_STRING))
             {
                 connection.Open();
                 using (SQLiteCommand sqlCommand = new SQLiteCommand(GetServersString, connection))
@@ -146,14 +146,14 @@ namespace SQLiteConnections.Database
                     {
                         while (reader.Read())
                         {
-                            Server server = new Server
+                            var server = new Server
                             {
-                                ID = int.Parse(reader[id].ToString()),
-                                Name = (string)reader[name],
-                                IPAdress = (string)reader[ipv4],
-                                Port = (string)reader[port],
-                                Login = (string)reader[login],
-                                Guid = Guid.Parse(reader[guid].ToString())                               
+                                ID = int.Parse(reader[ID].ToString()),
+                                Name = (string)reader[NAME],
+                                IPAdress = (string)reader[IPV4],
+                                Port = (string)reader[PORT],
+                                Login = (string)reader[LOGIN],
+                                Guid = Guid.Parse(reader[GUID].ToString())                               
                             };
 
                             servers.Add(server);
@@ -165,11 +165,11 @@ namespace SQLiteConnections.Database
             }
         }
 
-        public void InsertToDB(Server server)
+        public void InsertToDB(IServer server)
         {
-            string InsertToDBString = "insert into " + tableName + " (name, ipv4, port, login, guid) values (@name, @ipv4, @port, @login, @guid)";
+            var InsertToDBString = "insert into " + TABLE_NAME + " (name, ipv4, port, login, guid) values (@name, @ipv4, @port, @login, @guid)";
 
-            using (SQLiteConnection connection = new SQLiteConnection(ConnectionString))
+            using (SQLiteConnection connection = new SQLiteConnection(CONNECTION_STRING))
             {
                 connection.Open();
                 using (SQLiteCommand sqlCommand = new SQLiteCommand(InsertToDBString, connection))
@@ -184,11 +184,11 @@ namespace SQLiteConnections.Database
             }
         }
 
-        public void UpdateServer(Server server)
+        public void UpdateServer(IServer server)
         {
-            string UpdateServerString = "UPDATE " + tableName + " SET name = @name, ipv4 = @ipv4, port = @port, login = @login WHERE guid LIKE @guid";
+            var UpdateServerString = "UPDATE " + TABLE_NAME + " SET name = @name, ipv4 = @ipv4, port = @port, login = @login WHERE guid LIKE @guid";
 
-            using (SQLiteConnection connection = new SQLiteConnection(ConnectionString))
+            using (SQLiteConnection connection = new SQLiteConnection(CONNECTION_STRING))
             {
                 connection.Open();
                 using (SQLiteCommand sqlCommand = new SQLiteCommand(UpdateServerString, connection))
